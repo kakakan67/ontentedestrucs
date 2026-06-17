@@ -64,14 +64,14 @@
                         <ul class="styled-list">
                             <li>J'ai réalisé le Diagramme de Gantt : il a permis à mon groupe de s'organiser au niveau de la repartition des tâches et à nous projeter pour estimer à quel moment nous ferions telle tâches</li>
                             <li>J'ai réalisé le CRUD avions : il permet de renseigner l'immatriculation / nom de l'appareil (ex : F-GKXA), la compagnie aérienne (il faut sélectionner une compagnie aérienne existant dans le menu déroulant), le type d'avion (il faut sélectionner un type d'avion existant dans le menu déroulant)</li>
-                            <img src="../assets/img/avions.png" alt="Avions">
+                            <img src="assets/img/avions.png" alt="Avions">
                             <li>Le CRUD types d'avions : il permet de renseigner la marque / constructeur (ex : Airbus), le modèle (ex : A320), une description (facultative), une photo de l'appareil à partir du gestionnaire de fichier, ainsi qu'une longueur de piste minimale (ex : 2 000 mètres) </li>
-                            <img src="../assets/img/typesavions.png" alt="Typesavions">
+                            <img src="assets/img/typesavions.png" alt="Typesavions">
                             <li>Le CRUD compagnies : il permet de renseigner le nom de la compagnie ( ex : Air France), le pays (ex : France), ainsi qu'une description (facultative)</li>
-                            <img src="../assets/img/compagnies.png" alt="Compagnies">
+                            <img src="assets/img/compagnies.png" alt="Compagnies">
                             <li>Un template Django confirm_delete.html pour les avions, les types d'avions ainsi que pour les compagnies qui sert à afficher une page de confirmation avant la suppression d'un élément.
                             Il hérite du template principal base.html et affiche un message d'avertissement demandant à l'utilisateur de confirmer la suppression d'un objet dont le nom est stocké dans {{ titre_objet }}. Il propose deux actions : confirmer la suppression via un formulaire sécurisé par un token CSRF, ou annuler et revenir à la page précédente grâce au lien {{ retour_url }}. L'objectif est d'éviter les suppressions accidentelles en demandant une validation explicite de l'utilisateur.</li>
-                            <img src="../assets/img/confirmdelete.png" alt="ConfirmDelete">
+                            <img src="assets/img/confirmdelete.png" alt="ConfirmDelete">
                        </ul>
                        
                     </div>
